@@ -1,0 +1,19 @@
+{
+  "name": "echo-app",
+  "version": "1.0.0",
+  "description": "Foo package",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@rusnyder/foo": "*"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "ts-loader": "*",
+    "typescript": "*",
+    "webpack": "*",
+    "webpack-cli": "*"
+  }
+}
